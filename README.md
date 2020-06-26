@@ -1,4 +1,4 @@
-# [DeepFaceFlow: In-the-wild Dense 3D Facial Motion Estimation](https://arxiv.org/abs/2005.07298):
+# [DeepFaceFlow: In-the-wild Dense 3D Facial Motion Estimation](http://openaccess.thecvf.com/content_CVPR_2020/html/Koujan_DeepFaceFlow_In-the-Wild_Dense_3D_Facial_Motion_Estimation_CVPR_2020_paper.html):
 [![Youtube Video](https://img.shields.io/badge/HD%20Video-Results-lightgrey?logo=youtube)](https://youtu.be/8ocEBVaEou8)
 [![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/2005.07298)
 
@@ -17,11 +17,11 @@ This is the official repository of our CVPR 2020 paper DeepFaceFlow.
 <sup>4 </sup>FaceSoft.io
 
 [[Preprint]](https://arxiv.org/pdf/2005.07298.pdf)
-__[CVPR 2020]__
+[[CVPR 2020]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Koujan_DeepFaceFlow_In-the-Wild_Dense_3D_Facial_Motion_Estimation_CVPR_2020_paper.pdf)
 
 ### Abstract 
 
-![Overview Image](images/overview.eps "Overview image")
+![Overview Image](images/overview.png "Overview image")
 
 Dense 3D facial motion capture from only monocular in-the-wild pairs of RGB images is a highly challenging problem with numerous applications, ranging from facial expression recognition to facial reenactment. In this work, we propose DeepFaceFlow, a robust, fast, and highly-accurate framework for the dense estimation of 3D non-rigid facial flow between pairs of monocular images. Our DeepFaceFlow framework was trained and tested on two very large-scale facial video datasets, one of them of our own collection and annotation, with the aid of occlusion-aware and 3D-based loss function. We conduct comprehensive experiments probing different aspects of our approach and demonstrating its improved performance against state-of-the-art flow and 3D reconstruction methods. Furthermore, we incorporate our framework in a full-head state-of-the-art facial video synthesis method and demonstrate the ability of our method in better representing and capturing the facial dynamics, resulting in a highly-realistic facial video synthesis. Given registered pairs of images, our framework generates 3D flow maps at ~ 60 fps.
 
@@ -38,10 +38,11 @@ Details about our collected Face3Dvid dataset will be published soon.
 ### Citation
 If you find our work useful, please cite it as follows:
 ```
-@article{koujan2020deepfaceflow,
-  title={DeepFaceFlow: In-the-wild Dense 3D Facial Motion Estimation},
-  author={Koujan, Mohammad Rami and Roussos, Anastasios and Zafeiriou, Stefanos},
-  journal={arXiv preprint arXiv:2005.07298},
-  year={2020}
+@InProceedings{Koujan_2020_CVPR,
+author = {Koujan, Mohammad Rami and Roussos, Anastasios and Zafeiriou, Stefanos},
+title = {DeepFaceFlow: In-the-Wild Dense 3D Facial Motion Estimation},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
 ```
